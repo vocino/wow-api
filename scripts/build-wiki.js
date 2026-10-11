@@ -3,7 +3,7 @@
 // version/date footer so staleness is visible. Overwrites generated pages,
 // so review with `git -C wiki diff` before pushing the wiki.
 // Requires BNET_ID and BNET_SECRET in .env or the environment.
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { getAccessToken, gameData, namespace, readCredentials, loadDotEnv, dataVersion, DEFAULT_REGION } from '../src/bnet.js';
 
@@ -39,9 +39,7 @@ async function main() {
 
   const file = (name) => name.replace(/ /g, '-');
 
-  const EXTRA = {
-    267: `\n## Single-Button Assistant\n\nSBA cycles the single-target rotation (Icy Veins Easy Mode, Midnight Season 1):\n\n- Summon Infernal (\`1122\`)\n- Immolate (\`348\`)\n- Chaos Bolt (\`116858\`)\n- Conflagrate (\`17962\`)\n- Cataclysm (\`152108\`)\n- Incinerate (\`29722\`)\n\nHero talent trees: Diabolist, Hellcaller.\n`
-  };
+  const sba = new Map(JSON.parse(readFileSync(join(ROOT, 'data', 'sba.json'), 'utf8')).map((s) => [s.specId, s]));
 
   let sidebar = '';
   for (const c of classes) {
@@ -63,7 +61,16 @@ async function main() {
     for (const s of c.specializations) {
       let spec = `Parent: [[${c.name}]]\n\nBattle.net spec ID: \`${s.id}\`\n\n## Queries\n\n`
         + `\`\`\`powershell\nnode examples/spec-toolkit.js ${s.id}\n\`\`\`\n`;
-      if (EXTRA[s.id]) spec += EXTRA[s.id];
+      const entry = sba.get(s.id);
+    if (entry) {
+      spec += `\n## Single-Button Assistant\n\nAbilities SBA cycles through, in priority order ([guide](${entry.source}), patch ${entry.patch}):\n\n`;
+      for (const a of entry.abilities) {
+        const link = a.spellId ? `[${a.name}](https://www.wowhead.com/spell=${a.spellId})`
+          : a.itemId ? `[${a.name}](https://www.wowhead.com/item=${a.itemId})` : a.name;
+        spec += `- ${link}\n`;
+      }
+      if (entry.note) spec += `\n${entry.note}\n`;
+    }
       writeFileSync(join(OUT, `${file(c.name)}-${file(s.name)}.md`), spec + footer);
     }
   }

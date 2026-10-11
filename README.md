@@ -32,7 +32,9 @@ nothing is cached. `dataVersion()` in `src/bnet.js` reads the exact
 game data version back out of any response, and wiki pages carry a
 footer naming the version and date they were built from. Rebuild the
 wiki from current data with `node scripts/build-wiki.js`, review with
-`git -C wiki diff`, then push the wiki.
+`git -C wiki diff`, then push the wiki. Per-spec SBA ability lists live
+in `data/sba.json` (guide-sourced, ID-verified) and render into the
+spec pages on rebuild.
 
 ## Worked example: Destruction SBA abilities
 

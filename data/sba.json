@@ -1,0 +1,1739 @@
+[
+ {
+  "specId": 250,
+  "source": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant one-button mode is a downgrade but viable while levelling; it casts Dancing Rune Weapon and Reaper's Mark (reversed priority) plus reactive Death Strike, but stays behind offensively and defensively.",
+  "abilities": [
+   {
+    "name": "Death and Decay",
+    "spellId": 43265
+   },
+   {
+    "name": "Death Strike",
+    "spellId": 49998
+   },
+   {
+    "name": "Blood Boil",
+    "spellId": 50842
+   },
+   {
+    "name": "Reaper's Mark",
+    "spellId": 439843
+   },
+   {
+    "name": "Marrowrend",
+    "spellId": 195182
+   },
+   {
+    "name": "Dancing Rune Weapon",
+    "spellId": 49028
+   },
+   {
+    "name": "Death's Caress",
+    "spellId": 195292
+   },
+   {
+    "name": "Heart Strike",
+    "spellId": 206930
+   }
+  ]
+ },
+ {
+  "specId": 251,
+  "source": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assisted Highlight ~5-10% less DPS, Single-Button Assistant ~15% less vs optimal play; Single-Button Assistant does not cast Breath of Sindragosa automatically.",
+  "abilities": [
+   {
+    "name": "Pillar of Frost",
+    "spellId": 51271
+   },
+   {
+    "name": "Frostwyrm's Fury",
+    "spellId": 279302
+   },
+   {
+    "name": "Breath of Sindragosa",
+    "spellId": 1249658
+   },
+   {
+    "name": "Reaper's Mark",
+    "spellId": 439843
+   },
+   {
+    "name": "Obliterate",
+    "spellId": 49020
+   },
+   {
+    "name": "Frostscythe",
+    "spellId": 207230
+   },
+   {
+    "name": "Empower Rune Weapon",
+    "spellId": 47568
+   },
+   {
+    "name": "Howling Blast",
+    "spellId": 49184
+   },
+   {
+    "name": "Frostbane",
+    "spellId": 455993
+   },
+   {
+    "name": "Frost Strike",
+    "spellId": 49143
+   },
+   {
+    "name": "Glacial Advance",
+    "spellId": 194913
+   }
+  ]
+ },
+ {
+  "specId": 252,
+  "source": "https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assisted Highlight ~5-10% less DPS, Single-Button Assistant ~15% less vs optimal play (assuming perfect cooldown usage); no spec-specific SBA exclusions noted.",
+  "abilities": [
+   {
+    "name": "Soul Reaper",
+    "spellId": 343294
+   },
+   {
+    "name": "Outbreak",
+    "spellId": 77575
+   },
+   {
+    "name": "Festering Scythe",
+    "spellId": 455397
+   },
+   {
+    "name": "Putrefy",
+    "spellId": 1247378
+   },
+   {
+    "name": "Death Coil",
+    "spellId": 47541
+   },
+   {
+    "name": "Epidemic",
+    "spellId": 207317
+   },
+   {
+    "name": "Festering Strike",
+    "spellId": 85948
+   },
+   {
+    "name": "Scourge Strike",
+    "spellId": 55090
+   }
+  ]
+ },
+ {
+  "specId": 577,
+  "source": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "Guide's Rotation Assist section: tool never recommends Metamorphosis, The Hunt, Felblade, Fel Rush, or Vengeful Retreat (cooldowns + displacement excluded); excluding Felblade disrupts Fury flow. Recommends Fel-Scarred builds and provides Rotation Assist talent codes.",
+  "abilities": [
+   {
+    "name": "The Hunt",
+    "spellId": 370965
+   },
+   {
+    "name": "Eye Beam",
+    "spellId": 198013
+   },
+   {
+    "name": "Essence Break",
+    "spellId": 258860
+   },
+   {
+    "name": "Death Sweep",
+    "spellId": 210152
+   },
+   {
+    "name": "Blade Dance",
+    "spellId": 188499
+   },
+   {
+    "name": "Metamorphosis",
+    "spellId": 191427
+   },
+   {
+    "name": "Annihilation",
+    "spellId": 201427
+   },
+   {
+    "name": "Chaos Strike",
+    "spellId": 162794
+   },
+   {
+    "name": "Immolation Aura",
+    "spellId": 258920
+   },
+   {
+    "name": "Felblade",
+    "spellId": 232893
+   },
+   {
+    "name": "Consuming Fire",
+    "spellId": 452487
+   },
+   {
+    "name": "Abyssal Gaze",
+    "spellId": 452497
+   }
+  ]
+ },
+ {
+  "specId": 581,
+  "source": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "Guide states the Single-Button Assistant is currently broken: it does not use Fracture, breaking it completely for both hero talents; recommends not using it until fixed.",
+  "abilities": [
+   {
+    "name": "Metamorphosis",
+    "spellId": 187827
+   },
+   {
+    "name": "Fiery Brand",
+    "spellId": 204021
+   },
+   {
+    "name": "Soul Carver",
+    "spellId": 207407
+   },
+   {
+    "name": "Sigil of Spite",
+    "spellId": 390163
+   },
+   {
+    "name": "Immolation Aura",
+    "spellId": 258920
+   },
+   {
+    "name": "Sigil of Flame",
+    "spellId": 204596
+   },
+   {
+    "name": "Reaver's Glaive",
+    "spellId": 442294
+   },
+   {
+    "name": "Fracture",
+    "spellId": 263642
+   },
+   {
+    "name": "Spirit Bomb",
+    "spellId": 247454
+   },
+   {
+    "name": "Felblade",
+    "spellId": 232893
+   },
+   {
+    "name": "Soul Cleave",
+    "spellId": 228477
+   },
+   {
+    "name": "Throw Glaive",
+    "spellId": 204157
+   }
+  ]
+ },
+ {
+  "specId": 1480,
+  "source": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "Guide's Rotation Assist section: tool does not use Void Metamorphosis, Collapsing Star, or The Hunt (major cooldowns), costing roughly half the spec's damage (-53% to -67% in their sims); recommends avoiding it, or Annihilator build if it must be used.",
+  "abilities": [
+   {
+    "name": "Void Metamorphosis",
+    "spellId": 471306
+   },
+   {
+    "name": "Collapsing Star",
+    "spellId": 1221167
+   },
+   {
+    "name": "Reap",
+    "spellId": 1226019
+   },
+   {
+    "name": "Eradicate",
+    "spellId": 1226033
+   },
+   {
+    "name": "Void Ray",
+    "spellId": 473728
+   },
+   {
+    "name": "Soul Immolation",
+    "spellId": 1241937
+   },
+   {
+    "name": "Consume",
+    "spellId": 473662
+   }
+  ]
+ },
+ {
+  "specId": 102,
+  "source": "https://www.icy-veins.com/wow/balance-druid-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant is a good learning tool at a 10-15% damage loss; the One-Button rotation (minor GCD penalty) is 15-20% worse than an optimal player-driven rotation.",
+  "abilities": [
+   {
+    "name": "Sunfire",
+    "spellId": 93402
+   },
+   {
+    "name": "Moonfire",
+    "spellId": 8921
+   },
+   {
+    "name": "Celestial Alignment",
+    "spellId": 194223
+   },
+   {
+    "name": "Orbital Strike",
+    "spellId": 390378
+   },
+   {
+    "name": "Convoke the Spirits",
+    "spellId": 391528
+   },
+   {
+    "name": "Fury of Elune",
+    "spellId": 202770
+   },
+   {
+    "name": "New Moon",
+    "spellId": 274281
+   },
+   {
+    "name": "Force of Nature",
+    "spellId": 205636
+   },
+   {
+    "name": "Starsurge",
+    "spellId": 78674
+   },
+   {
+    "name": "Starfall",
+    "spellId": 191034
+   },
+   {
+    "name": "Wrath",
+    "spellId": 190984
+   },
+   {
+    "name": "Starfire",
+    "spellId": 194153
+   }
+  ]
+ },
+ {
+  "specId": 103,
+  "source": "https://www.icy-veins.com/wow/feral-druid-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Rotation Assist (25% GCD penalty) manages DoTs reasonably and suits Feral's downtime, but will NOT use Berserk, racials, or on-use trinkets — use Berserk/Tiger's Fury/Convoke burst manually.",
+  "abilities": [
+   {
+    "name": "Tiger's Fury",
+    "spellId": 5217
+   },
+   {
+    "name": "Berserk",
+    "spellId": 106951
+   },
+   {
+    "name": "Rake",
+    "spellId": 1822
+   },
+   {
+    "name": "Moonfire",
+    "spellId": 8921
+   },
+   {
+    "name": "Rip",
+    "spellId": 1079
+   },
+   {
+    "name": "Ferocious Bite",
+    "spellId": 22568
+   },
+   {
+    "name": "Shred",
+    "spellId": 5221
+   },
+   {
+    "name": "Feral Frenzy",
+    "spellId": 274837
+   },
+   {
+    "name": "Convoke the Spirits",
+    "spellId": 391528
+   }
+  ]
+ },
+ {
+  "specId": 104,
+  "source": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant is ~40% DPS loss for Guardian and does not emphasize proper defensive usage; following it blindly is extremely suboptimal.",
+  "abilities": [
+   {
+    "name": "Moonfire",
+    "spellId": 8921
+   },
+   {
+    "name": "Thrash",
+    "spellId": 77758
+   },
+   {
+    "name": "Mangle",
+    "spellId": 33917
+   },
+   {
+    "name": "Ironfur",
+    "spellId": 192081
+   },
+   {
+    "name": "Maul",
+    "spellId": 6807
+   },
+   {
+    "name": "Raze",
+    "spellId": 400254
+   },
+   {
+    "name": "Swipe",
+    "spellId": 213764
+   },
+   {
+    "name": "Frenzied Regeneration",
+    "spellId": 22842
+   },
+   {
+    "name": "Barkskin",
+    "spellId": 22812
+   },
+   {
+    "name": "Survival Instincts",
+    "spellId": 61336
+   },
+   {
+    "name": "Berserk",
+    "spellId": 50334
+   }
+  ]
+ },
+ {
+  "specId": 105,
+  "source": "https://www.icy-veins.com/wow/restoration-druid-pve-healing-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant and One-Button do not work for healing — they only use damage spells (just cast Wrath instead) and do not work at all in Bear Form.",
+  "abilities": [
+   {
+    "name": "Efflorescence",
+    "spellId": 145205
+   },
+   {
+    "name": "Lifebloom",
+    "spellId": 33763
+   },
+   {
+    "name": "Swiftmend",
+    "spellId": 18562
+   },
+   {
+    "name": "Rejuvenation",
+    "spellId": 774
+   },
+   {
+    "name": "Wild Growth",
+    "spellId": 48438
+   },
+   {
+    "name": "Regrowth",
+    "spellId": 8936
+   },
+   {
+    "name": "Wrath",
+    "spellId": 5176
+   },
+   {
+    "name": "Tranquility",
+    "spellId": 740
+   },
+   {
+    "name": "Convoke the Spirits",
+    "spellId": 391528
+   },
+   {
+    "name": "Ironbark",
+    "spellId": 102342
+   },
+   {
+    "name": "Innervate",
+    "spellId": 29166
+   },
+   {
+    "name": "Nature's Swiftness",
+    "spellId": 132158
+   },
+   {
+    "name": "Moonfire",
+    "spellId": 8921
+   },
+   {
+    "name": "Sunfire",
+    "spellId": 93402
+   }
+  ]
+ },
+ {
+  "specId": 1467,
+  "source": "https://www.icy-veins.com/wow/devastation-evoker-pve-dps-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "One-button assistant ~20% DPS loss vs optimal manual play; highlight assistant ~10% loss (no GCD penalty but follows Blizzard rotation, not simcraft-optimized). Guide recommends using both when learning Devastation. Excluded: Engulf (absent from current game data; removed in 12.0 per patch notes).",
+  "abilities": [
+   {
+    "name": "Living Flame",
+    "spellId": 361469
+   },
+   {
+    "name": "Deep Breath",
+    "spellId": 357210
+   },
+   {
+    "name": "Dragonrage",
+    "spellId": 375087
+   },
+   {
+    "name": "Shattering Stars",
+    "spellId": 1265802
+   },
+   {
+    "name": "Tip the Scales",
+    "spellId": 370553
+   },
+   {
+    "name": "Fire Breath",
+    "spellId": 357208
+   },
+   {
+    "name": "Eternity Surge",
+    "spellId": 359073
+   },
+   {
+    "name": "Disintegrate",
+    "spellId": 356995
+   }
+  ]
+ },
+ {
+  "specId": 1468,
+  "source": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "Combat Assistant will NOT cast healing spells; it only casts Fire Breath and Living Flame (damage). Guide does not recommend it as a single key since Living Flame casts will only deal damage and there are times to Living Flame without Fire Breath.",
+  "abilities": [
+   {
+    "name": "Dream Breath",
+    "spellId": 355936
+   },
+   {
+    "name": "Temporal Anomaly",
+    "spellId": 373861
+   },
+   {
+    "name": "Echo",
+    "spellId": 364343
+   },
+   {
+    "name": "Reversion",
+    "spellId": 366155
+   },
+   {
+    "name": "Merithra's Blessing",
+    "spellId": 1256577
+   },
+   {
+    "name": "Verdant Embrace",
+    "spellId": 360995
+   },
+   {
+    "name": "Living Flame",
+    "spellId": 361469
+   }
+  ]
+ },
+ {
+  "specId": 1473,
+  "source": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "Single-Button assistant is 5.4% behind manual play; highlighting has no real loss. Known issues: re-pressing too fast cancels Empower spells (Fire Breath/Upheaval) instead of queueing; assistant won't recommend Hover and can get stuck suggesting Empowers while moving. It does not use cooldowns (Breath of Eons, Tip the Scales, Time Skip, trinkets, potion, Hover) — weave them manually and keep Eruption/Living Flame/Azure Strike keybound.",
+  "abilities": [
+   {
+    "name": "Ebon Might",
+    "spellId": 395152
+   },
+   {
+    "name": "Prescience",
+    "spellId": 409311
+   },
+   {
+    "name": "Breath of Eons",
+    "spellId": 403631
+   },
+   {
+    "name": "Tip the Scales",
+    "spellId": 370553
+   },
+   {
+    "name": "Fire Breath",
+    "spellId": 357208
+   },
+   {
+    "name": "Upheaval",
+    "spellId": 396286
+   },
+   {
+    "name": "Eruption",
+    "spellId": 395160
+   },
+   {
+    "name": "Living Flame",
+    "spellId": 361469
+   },
+   {
+    "name": "Hover",
+    "spellId": 358267
+   },
+   {
+    "name": "Azure Strike",
+    "spellId": 362969
+   }
+  ]
+ },
+ {
+  "specId": 253,
+  "source": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Rotation Helper ~1-2% DPS loss vs perfect play; one-button mode ~9-12% total.",
+  "abilities": [
+   {
+    "name": "Bestial Wrath",
+    "spellId": 19574
+   },
+   {
+    "name": "Wild Thrash",
+    "spellId": 1264359
+   },
+   {
+    "name": "Kill Command",
+    "spellId": 34026
+   },
+   {
+    "name": "Barbed Shot",
+    "spellId": 217200
+   },
+   {
+    "name": "Cobra Shot",
+    "spellId": 193455
+   }
+  ]
+ },
+ {
+  "specId": 254,
+  "source": "https://www.icy-veins.com/wow/marksmanship-hunter-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Rotation Helper ~6-10% DPS loss vs perfect play; one-button mode ~13-15% total.",
+  "abilities": [
+   {
+    "name": "Explosive Shot",
+    "spellId": 212431
+   },
+   {
+    "name": "Volley",
+    "spellId": 260243
+   },
+   {
+    "name": "Trueshot",
+    "spellId": 288613
+   },
+   {
+    "name": "Kill Shot",
+    "spellId": 53351
+   },
+   {
+    "name": "Arcane Shot",
+    "spellId": 185358
+   },
+   {
+    "name": "Multi-Shot",
+    "spellId": 257620
+   },
+   {
+    "name": "Rapid Fire",
+    "spellId": 257044
+   },
+   {
+    "name": "Moonlight Chakram",
+    "spellId": 1264902
+   },
+   {
+    "name": "Aimed Shot",
+    "spellId": 19434
+   },
+   {
+    "name": "Steady Shot",
+    "spellId": 56641
+   }
+  ]
+ },
+ {
+  "specId": 255,
+  "source": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Rotation Helper ~2-8% DPS loss vs perfect play; one-button mode ~21% total.",
+  "abilities": [
+   {
+    "name": "Takedown",
+    "spellId": 1250646
+   },
+   {
+    "name": "Boomstick",
+    "spellId": 1261193
+   },
+   {
+    "name": "Kill Command",
+    "spellId": 259489
+   },
+   {
+    "name": "Wildfire Bomb",
+    "spellId": 259495
+   },
+   {
+    "name": "Raptor Strike",
+    "spellId": 186270
+   }
+  ]
+ },
+ {
+  "specId": 62,
+  "source": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assisted Highlight loses ~20-25% damage; Single-Button Assistant loses another ~5% (~25-30% total). Neither casts/highlights Arcane Surge, racials, or trinkets (use manually). SBA casts Arcane Explosion at 3+ targets and Arcane Orb as part of its rotation.",
+  "abilities": [
+   {
+    "name": "Arcane Surge",
+    "spellId": 365350
+   },
+   {
+    "name": "Touch of the Magi",
+    "spellId": 321507
+   },
+   {
+    "name": "Arcane Missiles",
+    "spellId": 5143
+   },
+   {
+    "name": "Prismatic Bolt",
+    "spellId": 1295923
+   },
+   {
+    "name": "Arcane Barrage",
+    "spellId": 44425
+   },
+   {
+    "name": "Arcane Orb",
+    "spellId": 153626
+   },
+   {
+    "name": "Arcane Blast",
+    "spellId": 30451
+   }
+  ]
+ },
+ {
+  "specId": 63,
+  "source": "https://www.icy-veins.com/wow/fire-mage-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assisted Highlight loses ~10-20% damage. Single-Button Assistant loses ~30-40% because its GCD penalty blocks queueing spells together (e.g. Fireball into Pyroblast) and hurts Fire's many instant casts. Neither casts/highlights Combustion, racials, or trinkets (use Combustion on cooldown manually).",
+  "abilities": [
+   {
+    "name": "Combustion",
+    "spellId": 190319
+   },
+   {
+    "name": "Pyroblast",
+    "spellId": 11366
+   },
+   {
+    "name": "Meteor",
+    "spellId": 153561
+   },
+   {
+    "name": "Fire Blast",
+    "spellId": 108853
+   },
+   {
+    "name": "Scorch",
+    "spellId": 2948
+   },
+   {
+    "name": "Fireball",
+    "spellId": 133
+   }
+  ]
+ },
+ {
+  "specId": 64,
+  "source": "https://www.icy-veins.com/wow/frost-mage-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant costs ~10% DPS single-target (less on Frostfire than Spellslinger), ~10% worse again on AoE. One-button mode adds ~10% more (~20% ST, ~30% AoE total loss).",
+  "abilities": [
+   {
+    "name": "Flurry",
+    "spellId": 44614
+   },
+   {
+    "name": "Glacial Spike",
+    "spellId": 199786
+   },
+   {
+    "name": "Frozen Orb",
+    "spellId": 84714
+   },
+   {
+    "name": "Ice Lance",
+    "spellId": 30455
+   },
+   {
+    "name": "Ray of Frost",
+    "spellId": 205021
+   },
+   {
+    "name": "Comet Storm",
+    "spellId": 1247777
+   },
+   {
+    "name": "Frostfire Bolt",
+    "spellId": 431044
+   }
+  ]
+ },
+ {
+  "specId": 268,
+  "source": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-easy-mode",
+  "patch": "12.1",
+  "note": "Guide: Combat Assistant performs a simplified damage rotation with an increased cooldown between presses; penalty is small for Brewmaster and can help manage Blackout Combo; defensives and Invoke Niuzao, the Black Ox must still be used manually. Apex talent Bring Me Another turns Brew usage into free Empty Barrel casts replacing Keg Smash.",
+  "abilities": [
+   {
+    "name": "Keg Smash",
+    "spellId": 121253
+   },
+   {
+    "name": "Blackout Kick",
+    "spellId": 100784
+   },
+   {
+    "name": "Breath of Fire",
+    "spellId": 115181
+   },
+   {
+    "name": "Invoke Niuzao, the Black Ox",
+    "spellId": 132578
+   },
+   {
+    "name": "Chi Burst",
+    "spellId": 123986
+   },
+   {
+    "name": "Exploding Keg",
+    "spellId": 325153
+   },
+   {
+    "name": "Tiger Palm",
+    "spellId": 100780
+   },
+   {
+    "name": "Expel Harm",
+    "spellId": 322101
+   },
+   {
+    "name": "Vivify",
+    "spellId": 116670
+   },
+   {
+    "name": "Fortifying Brew",
+    "spellId": 115203
+   }
+  ]
+ },
+ {
+  "specId": 269,
+  "source": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Guide: Combat Assistant performs a simplified rotation at a 15-30% DPS loss in sims but may help inexperienced players; defensives and Invoke Xuen, the White Tiger must still be used manually; assistant cannot pause during Fists of Fury channel, so guide recommends a /stopmacro [channeling] + /cast Single-Button Assistant macro.",
+  "abilities": [
+   {
+    "name": "Touch of Death",
+    "spellId": 325215
+   },
+   {
+    "name": "Whirling Dragon Punch",
+    "spellId": 152175
+   },
+   {
+    "name": "Strike of the Windlord",
+    "spellId": 392983
+   },
+   {
+    "name": "Fists of Fury",
+    "spellId": 113656
+   },
+   {
+    "name": "Rushing Wind Kick",
+    "spellId": 1250566
+   },
+   {
+    "name": "Rising Sun Kick",
+    "spellId": 107428
+   },
+   {
+    "name": "Blackout Kick",
+    "spellId": 100784
+   },
+   {
+    "name": "Tiger Palm",
+    "spellId": 100780
+   }
+  ]
+ },
+ {
+  "specId": 270,
+  "source": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-easy-mode",
+  "patch": "12.1",
+  "note": "Guide: Combat Assistant does not help healing due to its dynamic nature, only the DPS rotation; because DPS is tied into healing via Jadefire Teachings, using it may do more harm than good. No strict priority list; order below follows the guide's Single Target Healing, Raid Healing, and Cooldowns sections.",
+  "abilities": [
+   {
+    "name": "Renewing Mist",
+    "spellId": 115151
+   },
+   {
+    "name": "Soothing Mist",
+    "spellId": 115175
+   },
+   {
+    "name": "Vivify",
+    "spellId": 116670
+   },
+   {
+    "name": "Sheilun's Gift",
+    "spellId": 399491
+   },
+   {
+    "name": "Enveloping Mist",
+    "spellId": 124682
+   },
+   {
+    "name": "Rising Sun Kick",
+    "spellId": 107428
+   },
+   {
+    "name": "Rushing Wind Kick",
+    "spellId": 467307
+   },
+   {
+    "name": "Thunder Focus Tea",
+    "spellId": 116680
+   },
+   {
+    "name": "Life Cocoon",
+    "spellId": 116849
+   },
+   {
+    "name": "Revival",
+    "spellId": 115310
+   },
+   {
+    "name": "Invoke Yu'lon, the Jade Serpent",
+    "spellId": 322118
+   }
+  ]
+ },
+ {
+  "specId": 65,
+  "source": "https://www.icy-veins.com/wow/holy-paladin-pve-healing-easy-mode",
+  "patch": "12.1",
+  "note": "Guide states Combat Assistant will not cast healing spells, Holy Shock, or spend Holy Power, making it fairly unusable; only usable when focused entirely on damage.",
+  "abilities": [
+   {
+    "name": "Holy Shock",
+    "spellId": 20473
+   },
+   {
+    "name": "Eternal Flame",
+    "spellId": 156322
+   },
+   {
+    "name": "Light of Dawn",
+    "spellId": 85222
+   },
+   {
+    "name": "Flash of Light",
+    "spellId": 19750
+   },
+   {
+    "name": "Holy Light",
+    "spellId": 82326
+   }
+  ]
+ },
+ {
+  "specId": 66,
+  "source": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-easy-mode",
+  "patch": "12.1",
+  "note": "Guide states one-button Combat Assistant is a significant throughput decrease (~40% less DPS) and does not use Word of Glory or Avenging Wrath, with potential survival concerns.",
+  "abilities": [
+   {
+    "name": "Avenging Wrath",
+    "spellId": 31884
+   },
+   {
+    "name": "Divine Toll",
+    "spellId": 375576
+   },
+   {
+    "name": "Hammer of Light",
+    "spellId": 427453
+   },
+   {
+    "name": "Consecration",
+    "spellId": 327980
+   },
+   {
+    "name": "Shield of the Righteous",
+    "spellId": 53600
+   },
+   {
+    "name": "Word of Glory",
+    "spellId": 85673
+   },
+   {
+    "name": "Hammer of Wrath",
+    "spellId": 1241288
+   },
+   {
+    "name": "Judgment",
+    "spellId": 20271
+   },
+   {
+    "name": "Avenger's Shield",
+    "spellId": 31935
+   },
+   {
+    "name": "Hammer of the Righteous",
+    "spellId": 53595
+   },
+   {
+    "name": "Blessed Hammer",
+    "spellId": 204019
+   }
+  ]
+ },
+ {
+  "specId": 70,
+  "source": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Guide states Assisted Highlight costs only very minor damage vs optimal, but Single-Button Assistant is a large damage loss (increased GCD hurts frequent-cast spec); not recommended outside accessibility.",
+  "abilities": [
+   {
+    "name": "Wake of Ashes",
+    "spellId": 255937
+   },
+   {
+    "name": "Divine Toll",
+    "spellId": 375576
+   },
+   {
+    "name": "Final Verdict",
+    "spellId": 383328
+   },
+   {
+    "name": "Divine Storm",
+    "spellId": 53385
+   },
+   {
+    "name": "Blade of Justice",
+    "spellId": 184575
+   },
+   {
+    "name": "Judgment",
+    "spellId": 20271
+   },
+   {
+    "name": "Hammer of Wrath",
+    "spellId": 1241288
+   }
+  ]
+ },
+ {
+  "specId": 256,
+  "source": "https://www.icy-veins.com/wow/discipline-priest-pve-healing-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant never recommends cooldowns or healing buttons; guide calls its usefulness for healers questionable. Best use case is open-world content or delves as Voidweaver.",
+  "abilities": [
+   {
+    "name": "Shadow Word: Pain",
+    "spellId": 589
+   },
+   {
+    "name": "Mind Blast",
+    "spellId": 8092
+   },
+   {
+    "name": "Penance",
+    "spellId": 47540
+   },
+   {
+    "name": "Smite",
+    "spellId": 585
+   }
+  ]
+ },
+ {
+  "specId": 257,
+  "source": "https://www.icy-veins.com/wow/holy-priest-pve-healing-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant does not help healers heal; it is a 1-button damage rotation only. It ignores movement and never suggests long-cooldown spells such as Halo or Apotheosis.",
+  "abilities": [
+   {
+    "name": "Holy Word: Chastise",
+    "spellId": 88625
+   },
+   {
+    "name": "Holy Fire",
+    "spellId": 14914
+   },
+   {
+    "name": "Smite",
+    "spellId": 585
+   },
+   {
+    "name": "Holy Nova",
+    "spellId": 132157
+   }
+  ]
+ },
+ {
+  "specId": 258,
+  "source": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assistant covers common rotational spells only; manually weave Voidform, Power Infusion, on-use trinkets, combat potion, and racials. Expect roughly 15% less DPS than manual play due to increased base GCD.",
+  "abilities": [
+   {
+    "name": "Shadow Word: Pain",
+    "spellId": 589
+   },
+   {
+    "name": "Vampiric Touch",
+    "spellId": 34914
+   },
+   {
+    "name": "Voidform",
+    "spellId": 228260
+   },
+   {
+    "name": "Power Infusion",
+    "spellId": 10060
+   },
+   {
+    "name": "Shadow Word: Madness",
+    "spellId": 335467
+   },
+   {
+    "name": "Void Volley",
+    "spellId": 1242173
+   },
+   {
+    "name": "Mind Blast",
+    "spellId": 8092
+   },
+   {
+    "name": "Void Torrent",
+    "spellId": 263165
+   },
+   {
+    "name": "Tentacle Slam",
+    "spellId": 1227280
+   },
+   {
+    "name": "Shadow Word: Death",
+    "spellId": 32379
+   },
+   {
+    "name": "Mind Flay",
+    "spellId": 15407
+   }
+  ]
+ },
+ {
+  "specId": 259,
+  "source": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "SBA/Assisted Highlight is a fine starting point at ~5-10% less DPS than perfect play as long as cooldowns are used manually (the one-button rotation will not use them). It does not use Crimson Tempest in AoE, a massive DPS loss unless pressed manually.",
+  "abilities": [
+   {
+    "name": "Kingsbane",
+    "spellId": 385627
+   },
+   {
+    "name": "Deathmark",
+    "spellId": 360194
+   },
+   {
+    "name": "Vanish",
+    "spellId": 1856
+   },
+   {
+    "name": "Garrote",
+    "spellId": 703
+   },
+   {
+    "name": "Rupture",
+    "spellId": 1943
+   },
+   {
+    "name": "Envenom",
+    "spellId": 32645
+   },
+   {
+    "name": "Mutilate",
+    "spellId": 1329
+   },
+   {
+    "name": "Crimson Tempest",
+    "spellId": 1247227
+   },
+   {
+    "name": "Fan of Knives",
+    "spellId": 51723
+   },
+   {
+    "name": "Thistle Tea",
+    "spellId": null,
+    "itemId": 7676
+   }
+  ]
+ },
+ {
+  "specId": 260,
+  "source": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "Assisted Combat is not recommended for Outlaw: the GCD increase alone costs ~25-30% DPS (spec relies on 0.8s GCD during Adrenaline Rush) and it fails to use high-impact cooldowns correctly.",
+  "abilities": [
+   {
+    "name": "Roll the Bones",
+    "spellId": 1214909
+   },
+   {
+    "name": "Adrenaline Rush",
+    "spellId": 13750
+   },
+   {
+    "name": "Killing Spree",
+    "spellId": 51690
+   },
+   {
+    "name": "Blade Rush",
+    "spellId": 271877
+   },
+   {
+    "name": "Preparation",
+    "spellId": 1277933
+   },
+   {
+    "name": "Keep It Rolling",
+    "spellId": 381989
+   },
+   {
+    "name": "Between the Eyes",
+    "spellId": 315341
+   },
+   {
+    "name": "Dispatch",
+    "spellId": 2098
+   },
+   {
+    "name": "Sinister Strike",
+    "spellId": 193315
+   },
+   {
+    "name": "Pistol Shot",
+    "spellId": 185763
+   },
+   {
+    "name": "Blade Flurry",
+    "spellId": 13877
+   }
+  ]
+ },
+ {
+  "specId": 261,
+  "source": "https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-easy-mode",
+  "patch": "Patch 12.1",
+  "note": "One-Button-Rotation is ~10% less DPS single-target and 15%+ less in AoE; the Combat Assistant (highlight) has no GCD penalty so the gap is much smaller and acceptable.",
+  "abilities": [
+   {
+    "name": "Goremaw's Bite",
+    "spellId": 426591
+   },
+   {
+    "name": "Shadow Blades",
+    "spellId": 121471
+   },
+   {
+    "name": "Shadow Dance",
+    "spellId": 185313
+   },
+   {
+    "name": "Secret Technique",
+    "spellId": 280719
+   },
+   {
+    "name": "Coup de Grace",
+    "spellId": 441423
+   },
+   {
+    "name": "Eviscerate",
+    "spellId": 196819
+   },
+   {
+    "name": "Black Powder",
+    "spellId": 319175
+   },
+   {
+    "name": "Shadowstrike",
+    "spellId": 185438
+   },
+   {
+    "name": "Backstab",
+    "spellId": 53
+   },
+   {
+    "name": "Shuriken Storm",
+    "spellId": 197835
+   }
+  ]
+ },
+ {
+  "specId": 262,
+  "source": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Guide recommends AGAINST Single-Button Rotation (built-in GCD penalty is a massive DPS loss); Button Highlight is a more reasonable practice aid but still worse than a proper rotation and gives bad advice at times.",
+  "abilities": [
+   {
+    "name": "Stormkeeper",
+    "spellId": 191634
+   },
+   {
+    "name": "Ascendance",
+    "spellId": 114050
+   },
+   {
+    "name": "Ancestral Swiftness",
+    "spellId": 443454
+   },
+   {
+    "name": "Flame Shock",
+    "spellId": 188389
+   },
+   {
+    "name": "Earth Shock",
+    "spellId": 8042
+   },
+   {
+    "name": "Lava Burst",
+    "spellId": 51505
+   },
+   {
+    "name": "Lightning Bolt",
+    "spellId": 188196
+   }
+  ]
+ },
+ {
+  "specId": 263,
+  "source": "https://www.icy-veins.com/wow/enhancement-shaman-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Blizzard Rotation Assist improved in Midnight and is a reasonable jumping-off point to learn the spec, but costs performance (25% GCD penalty on single-button) and will NOT cast Ascendance, racials, on-use trinkets, movement, defensive or CC abilities; Totemic fares better since it doesn't take Ascendance.",
+  "abilities": [
+   {
+    "name": "Ascendance",
+    "spellId": 114051
+   },
+   {
+    "name": "Voltaic Blaze",
+    "spellId": 470057
+   },
+   {
+    "name": "Crash Lightning",
+    "spellId": 187874
+   },
+   {
+    "name": "Stormstrike",
+    "spellId": 17364
+   },
+   {
+    "name": "Lava Lash",
+    "spellId": 60103
+   },
+   {
+    "name": "Tempest",
+    "spellId": 454009
+   },
+   {
+    "name": "Lightning Bolt",
+    "spellId": 188196
+   },
+   {
+    "name": "Windstrike",
+    "spellId": 115356
+   },
+   {
+    "name": "Lightning Shield",
+    "spellId": 192106
+   },
+   {
+    "name": "Skyfury",
+    "spellId": 462854
+   },
+   {
+    "name": "Earth Shield",
+    "spellId": 974
+   }
+  ]
+ },
+ {
+  "specId": 264,
+  "source": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-easy-mode",
+  "patch": "12.1",
+  "note": "Combat Assistant alternates Flame Shock/Lava Burst/Lightning Bolt on <=2 targets or spams Chain Lightning on 3+; guide calls it a great feature for starting players to free DPS buttons while healing.",
+  "abilities": [
+   {
+    "name": "Water Shield",
+    "spellId": 52127
+   },
+   {
+    "name": "Earth Shield",
+    "spellId": 974
+   },
+   {
+    "name": "Healing Stream Totem",
+    "spellId": 5394
+   },
+   {
+    "name": "Stormstream Totem",
+    "spellId": 1267016
+   },
+   {
+    "name": "Surging Totem",
+    "spellId": 444995
+   },
+   {
+    "name": "Totemic Projection",
+    "spellId": 108287
+   },
+   {
+    "name": "Riptide",
+    "spellId": 61295
+   },
+   {
+    "name": "Chain Heal",
+    "spellId": 1064
+   },
+   {
+    "name": "Healing Wave",
+    "spellId": 77472
+   },
+   {
+    "name": "Healing Tide Totem",
+    "spellId": 108280
+   },
+   {
+    "name": "Spirit Link Totem",
+    "spellId": 98008
+   },
+   {
+    "name": "Ascendance",
+    "spellId": 114052
+   },
+   {
+    "name": "Flame Shock",
+    "spellId": 188389
+   },
+   {
+    "name": "Lava Burst",
+    "spellId": 51505
+   },
+   {
+    "name": "Lightning Bolt",
+    "spellId": 188196
+   }
+  ]
+ },
+ {
+  "specId": 265,
+  "source": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assisted Highlight adequately accurate single-target, limited multitarget; struggles with DoT uptime (no Pandemic logic), multitarget, and cooldown usage. SBA costs 5-10% dps via longer GCD.",
+  "abilities": [
+   {
+    "name": "Agony",
+    "spellId": 980
+   },
+   {
+    "name": "Corruption",
+    "spellId": 172
+   },
+   {
+    "name": "Haunt",
+    "spellId": 48181
+   },
+   {
+    "name": "Unstable Affliction",
+    "spellId": 1259790
+   },
+   {
+    "name": "Dark Harvest",
+    "spellId": 1257052
+   },
+   {
+    "name": "Drain Soul",
+    "spellId": 198590
+   }
+  ]
+ },
+ {
+  "specId": 266,
+  "source": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assisted Highlight adequately accurate single-target; Summon Demonic Tyrant entirely missing from Combat Assistant and Implosion not supported; struggles with multitarget and cooldown setup.",
+  "abilities": [
+   {
+    "name": "Call Dreadstalkers",
+    "spellId": 104316
+   },
+   {
+    "name": "Hand of Gul'dan",
+    "spellId": 105174
+   },
+   {
+    "name": "Implosion",
+    "spellId": 196277
+   },
+   {
+    "name": "Demonbolt",
+    "spellId": 264178
+   },
+   {
+    "name": "Shadow Bolt",
+    "spellId": 686
+   },
+   {
+    "name": "Summon Demonic Tyrant",
+    "spellId": 265187
+   }
+  ]
+ },
+ {
+  "specId": 267,
+  "source": "https://www.icy-veins.com/wow/destruction-warlock-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Assisted Highlight adequately accurate single-target, limited multitarget; struggles with DoT uptime (no Pandemic logic) and multitarget. Keep 1 Conflagrate charge for movement.",
+  "abilities": [
+   {
+    "name": "Summon Infernal",
+    "spellId": 1122
+   },
+   {
+    "name": "Immolate",
+    "spellId": 348
+   },
+   {
+    "name": "Chaos Bolt",
+    "spellId": 116858
+   },
+   {
+    "name": "Conflagrate",
+    "spellId": 17962
+   },
+   {
+    "name": "Cataclysm",
+    "spellId": 152108
+   },
+   {
+    "name": "Incinerate",
+    "spellId": 29722
+   }
+  ]
+ },
+ {
+  "specId": 71,
+  "source": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Generic Combat Assistant text: Assisted Highlight loses ~5% vs manual; Single-Button Assistant adds 25% GCD penalty (~20-25% loss), recommended only for new players/trivial content. Cooldowns (Avatar, Sweeping Strikes) can be macroed to SBA or used manually.",
+  "abilities": [
+   {
+    "name": "Sweeping Strikes",
+    "spellId": 260708
+   },
+   {
+    "name": "Cleave",
+    "spellId": 845
+   },
+   {
+    "name": "Rend",
+    "spellId": 772
+   },
+   {
+    "name": "Avatar",
+    "spellId": 107574
+   },
+   {
+    "name": "Colossus Smash",
+    "spellId": 167105
+   },
+   {
+    "name": "Bladestorm",
+    "spellId": 227847
+   },
+   {
+    "name": "Heroic Strike",
+    "spellId": null
+   },
+   {
+    "name": "Execute",
+    "spellId": 163201
+   },
+   {
+    "name": "Mortal Strike",
+    "spellId": 12294
+   },
+   {
+    "name": "Overpower",
+    "spellId": 7384
+   },
+   {
+    "name": "Slam",
+    "spellId": 1464
+   }
+  ]
+ },
+ {
+  "specId": 72,
+  "source": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-easy-mode",
+  "patch": "12.1",
+  "note": "Generic Combat Assistant text: Assisted Highlight ~5% loss; Single-Button Assistant ~20-25% loss from 25% GCD penalty. Cooldowns (Recklessness, Avatar) can be macroed to SBA or to Odyn's Fury/Bladestorm, or used manually.",
+  "abilities": [
+   {
+    "name": "Whirlwind",
+    "spellId": 190411
+   },
+   {
+    "name": "Recklessness",
+    "spellId": 1719
+   },
+   {
+    "name": "Avatar",
+    "spellId": 107574
+   },
+   {
+    "name": "Rampage",
+    "spellId": 184367
+   },
+   {
+    "name": "Execute",
+    "spellId": 5308
+   },
+   {
+    "name": "Raging Blow",
+    "spellId": 85288
+   },
+   {
+    "name": "Odyn's Fury",
+    "spellId": 385059
+   },
+   {
+    "name": "Bloodthirst",
+    "spellId": 23881
+   }
+  ]
+ },
+ {
+  "specId": 73,
+  "source": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-easy-mode",
+  "patch": "12.1",
+  "note": "Guide: Combat Assistant usable if you weave in offensive/defensive cooldowns; follows basic DPS priorities but not recommended for max performance. Shield Block, Ignore Pain and other defensives must be used manually.",
+  "abilities": [
+   {
+    "name": "Ignore Pain",
+    "spellId": 190456
+   },
+   {
+    "name": "Shield Block",
+    "spellId": 2565
+   },
+   {
+    "name": "Avatar",
+    "spellId": 107574
+   },
+   {
+    "name": "Demoralizing Shout",
+    "spellId": 1160
+   },
+   {
+    "name": "Ravager",
+    "spellId": 228920
+   },
+   {
+    "name": "Demolish",
+    "spellId": 436358
+   },
+   {
+    "name": "Shield Charge",
+    "spellId": 385952
+   },
+   {
+    "name": "Thunder Blast",
+    "spellId": 435607
+   },
+   {
+    "name": "Shield Slam",
+    "spellId": 23922
+   },
+   {
+    "name": "Thunder Clap",
+    "spellId": 6343
+   },
+   {
+    "name": "Execute",
+    "spellId": 163201
+   },
+   {
+    "name": "Revenge",
+    "spellId": 6572
+   },
+   {
+    "name": "Battle Shout",
+    "spellId": 6673
+   }
+  ]
+ }
+]
