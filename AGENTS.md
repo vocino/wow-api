@@ -8,6 +8,7 @@
 
 - `src` — application source
 - `test` — automated tests
+- `scripts` — maintenance scripts (wiki rebuild)
 
 ## Conventions
 

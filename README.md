@@ -30,7 +30,9 @@ Every query hits the live API with unversioned namespaces
 (`static-us`), which Blizzard resolves to the current patch —
 nothing is cached. `dataVersion()` in `src/bnet.js` reads the exact
 game data version back out of any response, and wiki pages carry a
-footer naming the version and date they were built from.
+footer naming the version and date they were built from. Rebuild the
+wiki from current data with `node scripts/build-wiki.js`, review with
+`git -C wiki diff`, then push the wiki.
 
 ## Worked example: Destruction SBA abilities
 
