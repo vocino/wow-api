@@ -1,0 +1,13 @@
+{
+  "name": "wow-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Battle.net World of Warcraft API queries",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
