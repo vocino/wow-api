@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { tokenUrl, apiUrl, namespace, basicAuthHeader, readCredentials, parseDotEnv, loadDotEnv, talentSpells, pvpTalentSpells, localName } from '../src/bnet.js';
+import { tokenUrl, apiUrl, namespace, basicAuthHeader, readCredentials, parseDotEnv, loadDotEnv, talentSpells, pvpTalentSpells, localName, dataVersion } from '../src/bnet.js';
 
 describe('bnet helpers', () => {
   it('builds the region-agnostic token URL', () => {
@@ -78,5 +78,18 @@ describe('bnet helpers', () => {
 
   it('returns an empty list for missing PvP entries', () => {
     assert.deepEqual(pvpTalentSpells(undefined), []);
+  });
+
+  it('extracts the game data version from response links', () => {
+    assert.deepEqual(
+      dataVersion({ _links: { self: { href: 'https://us.api.blizzard.com/data/wow/spell/116858?namespace=static-12.1.0_68914-us' } } }),
+      { namespace: 'static-12.1.0_68914-us', type: 'static', patch: '12.1.0', build: '68914', region: 'us' }
+    );
+  });
+
+  it('returns null when no versioned namespace is present', () => {
+    assert.equal(dataVersion({}), null);
+    assert.equal(dataVersion({ _links: { self: { href: 'https://us.api.blizzard.com/data/wow/spell/116858?namespace=static-us' } } }), null);
+    assert.equal(dataVersion(undefined), null);
   });
 });

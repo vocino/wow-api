@@ -24,6 +24,14 @@ node examples/spell.js 116858        # Chaos Bolt details
 environment variables take precedence. Optional: `BNET_REGION=eu`
 (default `us`).
 
+## Freshness
+
+Every query hits the live API with unversioned namespaces
+(`static-us`), which Blizzard resolves to the current patch —
+nothing is cached. `dataVersion()` in `src/bnet.js` reads the exact
+game data version back out of any response, and wiki pages carry a
+footer naming the version and date they were built from.
+
 ## Worked example: Destruction SBA abilities
 
 Single-Button Assistant cycles the spec's single-target rotation

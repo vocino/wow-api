@@ -89,6 +89,13 @@ export function localName(value) {
   return value?.en_US ?? null;
 }
 
+export function dataVersion(doc) {
+  const href = doc?._links?.self?.href ?? '';
+  const match = href.match(/[?&]namespace=((static|dynamic|profile)-([\d.]+)_(\d+)-([a-z]+))(?:&|$)/);
+  if (!match) return null;
+  return { namespace: match[1], type: match[2], patch: match[3], build: match[4], region: match[5] };
+}
+
 export function talentSpells(nodes) {
   const out = [];
   const seen = new Set();
