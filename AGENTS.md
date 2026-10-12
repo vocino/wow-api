@@ -6,10 +6,10 @@
 
 ## Code Map
 
-- `src` — application source
+- `src` — application source (`bnet.js` API client, `talents.js` loadout codec)
 - `test` — automated tests
-- `scripts` — maintenance scripts (wiki rebuild)
-- `builds` — per-spec talent build guides
+- `scripts` — maintenance scripts (wiki rebuild, talent-string encode/decode/check)
+- `builds` — per-spec talent builds: `<specId>.md` guide, `<specId>.json` node map
 
 ## Conventions
 
