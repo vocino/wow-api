@@ -71,6 +71,11 @@ async function main() {
       }
       if (entry.note) spec += `\n${entry.note}\n`;
     }
+    try {
+      const build = readFileSync(join(ROOT, 'builds', `${s.id}.md`), 'utf8').trim()
+        .replace(/^## /gm, '### ');
+      if (build) spec += `\n## Talent Build\n\n${build}\n`;
+    } catch { /* no build guide for this spec yet */ }
       writeFileSync(join(OUT, `${file(c.name)}-${file(s.name)}.md`), spec + footer);
     }
   }

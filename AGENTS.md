@@ -9,7 +9,7 @@
 - `src` — application source
 - `test` — automated tests
 - `scripts` — maintenance scripts (wiki rebuild)
-- `docs` — project documentation
+- `builds` — per-spec talent build guides
 
 ## Conventions
 
